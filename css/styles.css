@@ -1,0 +1,159 @@
+@media (max-width: 1440px) {
+  .sedans {
+    position: static;
+  }
+
+  .suvs {
+    position: static;
+  }
+
+    .luxury {
+      position: static;
+  }
+
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+  margin-left: 17%;
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  margin-left: 17%;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+  width: 70%;
+}
+
+a {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(179, 100%, 13%);
+}
+
+
+.all {
+  background-color: Transparent;
+  width: 900px;
+  height: 450px;
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  height: 450px;
+  width: 300px;
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  border-radius: 10px 0 0 10px;
+
+}
+
+
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  height: 450px;
+  width: 300px;
+  position: absolute;
+  display: inline-block;
+  margin-left: 300px;
+
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  height: 450px;
+  width: 300px;
+  position: absolute;
+  display: inline-block;
+  margin-left: 600px;
+  border-radius: 0 10px 10px 0;
+
+}
+
+.images {
+  margin: 40px 0 10px 17%;
+
+}
+
+.clickme {
+  height: 40px;
+  width: 140px;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 40px;
+  text-align: center;
+  line-height: 2.5;
+  margin: 70px 0 0 50px;
+}
+
+.lightesttext {
+  color: hsl(31, 77%, 52%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.mediumtext {
+  color: hsl(184, 100%, 22%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.darkesttext {
+  color: hsl(179, 100%, 13%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.attribution {
+  margin-top: 650px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 375px) {
+
+  .all {
+    width: 85%;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .sedans {
+    position: static;
+    display: block;
+    width: 100%;
+      border-radius: 10px 10px 0 0;
+  }
+
+  .suvs {
+    position: static;
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+    .luxury {
+      position: static;
+      display: block;
+      width: 100%;
+      margin-left: 0px;
+      margin-bottom: 50px;
+        border-radius: 0 0 10px 10px;
+  }
+
+}
